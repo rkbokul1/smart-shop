@@ -1,0 +1,19 @@
+.imgg{
+    width: 250px;
+    height: 250px;
+}
+.card{
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.btn{
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+}
+.btn:hover{
+    background: orange;
+    color: white;
+}

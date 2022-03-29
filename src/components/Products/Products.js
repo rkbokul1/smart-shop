@@ -14,7 +14,7 @@ const Products = () =>{
 
 
     return(
-        <div>
+        <div className="container">
             <div className="product-container">
                 {
                     products.map(product => <Show 
@@ -23,7 +23,7 @@ const Products = () =>{
                 }
             </div>
             <div className="choice-container">
-
+                <h2 className="chli">Choice List</h2>
             </div>
         </div>
     );

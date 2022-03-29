@@ -7,14 +7,17 @@ const Show = (props) =>{
 
     return(
         <div className="card">
-            <img src={img} alt="" /> 
+            <img className="imgg" src={img} alt="" /> 
             <div>
                 <h2>Name: {name}</h2>
                 <p>Category: {category}</p>
                 <p>Brand: {brand}</p>
                 <p>Color: {color}</p>
                 <p>Price: <strong>$ {price}</strong></p>
-            </div>           
+            </div> 
+            <button className="btn">
+                <p>Add To choice List</p>
+            </button>          
         </div>
     );
 };
