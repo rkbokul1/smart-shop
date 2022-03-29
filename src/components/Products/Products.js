@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Show from "../Show/Show";
 import './Products.css';
 
 const Products = () =>{
@@ -14,9 +15,16 @@ const Products = () =>{
 
     return(
         <div>
-            {
-                products.map
-            }
+            <div className="product-container">
+                {
+                    products.map(product => <Show 
+                        product = {product} key ={product.id}                                            
+                    ></Show>)
+                }
+            </div>
+            <div className="choice-container">
+
+            </div>
         </div>
     );
 };

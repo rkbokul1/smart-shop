@@ -37,7 +37,7 @@
         "brand" : "Titan",
         "img" : "https://staticimg.titan.co.in/Titan/Catalog/90149AP01_1.jpg?pView=pdp",
         "color" : "off-White",
-        "price" : 380
+        "price" : 390
     },
     {   "id" : 6,
         "name": "Padgene Watch M-2",
@@ -61,7 +61,7 @@
         "brand" : "Doflamingshiny",
         "img" : "https://m.media-amazon.com/images/I/61QuVVJ3j3L._AC_SL1500_.jpg",
         "color" : "black",
-        "price" : 230
+        "price" : 240
     },
     {   "id" : 9,
         "name": "S-44 Smart Watch",
@@ -70,29 +70,5 @@
         "img" : "https://m.media-amazon.com/images/I/71azF4ei86S._AC_SL1500_.jpg",
         "color" : "black",
         "price" : 300
-    },
-    {   "id" : 10,
-        "name": "Titan Smart Pro",
-        "category": "Watch",
-        "brand" : "Titan",
-        "img" : "https://staticimg.titan.co.in/Titan/Catalog/90149AP01_1.jpg?pView=pdp",
-        "color" : "off-White",
-        "price" : 380
-    },
-    {   "id" : 11,
-        "name": " FOREVIGO SW-300",
-        "category": "Watch",
-        "brand" : "Forvigo",
-        "img" : "https://www.mytrendyphone.eu/images/Forever-ForeVigo-SW-300-Waterproof-Smartwatch-Black-5900495780478-29102019-01.jpg",
-        "color" : "black",
-        "price" : 350
-    },
-    {   "id" : 12,
-        "name": "JPY6315",
-        "category": "Watch",
-        "brand" : "Doflamingshiny",
-        "img" : "https://m.media-amazon.com/images/I/61QuVVJ3j3L._AC_SL1500_.jpg",
-        "color" : "black",
-        "price" : 230
     }
 ]
