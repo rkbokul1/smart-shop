@@ -1,6 +1,6 @@
 # Smart Shop
 
-#Live Link [click here](www.google.com).
+# Live Link [click here](www.google.com).
 
 
 ## Available Scripts
