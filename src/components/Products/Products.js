@@ -1,4 +1,4 @@
-import { click } from "@testing-library/user-event/dist/click";
+// import { click } from "@testing-library/user-event/dist/click";
 import React, { useEffect, useState } from "react";
 import Show from "../Show/Show";
 import Cart from "../Cart/Cart"
@@ -25,8 +25,8 @@ const Products = () =>{
     const handleGenerateChoice = () =>{
         const gen = Math.ceil(Math.random() * 4);
         setChoice(gen);
+
     }
-    console.log(choice)
 
 
     return(
@@ -47,7 +47,8 @@ const Products = () =>{
                             cart ={cart} key ={cart.id} 
                         ></Cart>)
                     }
-                    <button onClick={() => handleGenerateChoice(choice)} className="cho-btn">Choice</button>
+                    
+                    <button onClick={() => handleGenerateChoice()} className="cho-btn">Chose 1 for me</button>
                     <button className="cho-btn">Delete</button>
                 </div>
             </div>

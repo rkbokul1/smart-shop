@@ -8,13 +8,13 @@
     gap: 10px;
 }
 .choice-container{
-    background: rgb(226, 195, 139);
+    background: rgb(219, 215, 208);
     border-radius: 10px;
     margin-top: 10px;
 }
 .content{    
     position: sticky;
-    top: 0;
+    top: 15px;
     right: 0;
     padding: 0 10px;
 }
@@ -45,16 +45,25 @@
     }
     .product-container{
         grid-template-columns: 1fr;
-    }    
+    } 
+    .cho-btn{
+        margin-bottom: 10px;
+    }  
+    .content{
+        top: 0;
+    } 
 }
 
 @media screen and (min-width:550px) {
     .chli{
-        color: white;
+        color: rgb(0, 0, 0);
     }    
     .product-container{
         grid-template-columns: repeat(2, 1fr);
     }
+    .cho-btn{
+        margin-bottom: 10px;
+    } 
 }
 @media screen and (min-width: 1062px) {
     .product-container{
