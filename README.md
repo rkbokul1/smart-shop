@@ -1,6 +1,6 @@
 # Smart Shop
 
-# Live Link [click here](www.google.com).
+# Live Link [click here](https://smart-watch-shop-rk.netlify.app/).
 
 
 ## Available Scripts
