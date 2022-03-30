@@ -1,6 +1,8 @@
 # Smart Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Link [click here] (www.google.com)
+
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). -->
 
 ## Available Scripts
 
