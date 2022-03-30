@@ -1,9 +1,9 @@
 import React from "react";
 import './Show.css';
 
-const Show = (props) =>{
-    // console.log(props)
-    const {name, category, brand, img, color, price} = props.product;
+const Show = ({product, handleAddToChoice}) =>{
+    // console.log(product)
+    const {name, category, brand, img, color, price} = product;
 
     return(
         <div className="card">
@@ -15,7 +15,7 @@ const Show = (props) =>{
                 <p>Color: {color}</p>
                 <p>Price: <strong>$ {price}</strong></p>
             </div> 
-            <button className="btn">
+            <button onClick={ () => handleAddToChoice(product)} className="btn">
                 <p>Add To choice List</p>
             </button>          
         </div>
